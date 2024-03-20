@@ -7,7 +7,7 @@ def get_product_info():
       if quantity > 0:
         break
       else:
-        print("Quantity must be a positive number.")
+        print("Quantity must be a positive numbers.")
     except ValueError:
       print("Invalid input. Please enter a number.")
   return {"product": product_name, "quantity": quantity}
